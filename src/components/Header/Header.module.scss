@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  &__logo {
+
+    &:hover {
+      animation-duration: 1.4s;
+      animation-name: logo-animation;
+      animation-timing-function: ease-out;
+    }
+  }
+}
+
+@keyframes logo-animation{
+  from{
+    transform:rotate(0)
+  }
+  to{
+    transform:rotate(360deg)
+  }
+}

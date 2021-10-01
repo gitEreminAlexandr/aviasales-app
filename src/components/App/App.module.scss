@@ -1,0 +1,13 @@
+.app {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 85px 100px 50px;
+  background-color: #F3F7FA;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.flex-conteiner {
+  display: flex;
+  justify-content: space-between;
+}

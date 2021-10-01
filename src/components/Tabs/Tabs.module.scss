@@ -1,0 +1,40 @@
+.tabs {
+
+  margin-bottom: 20px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__button {
+    width: 251px;
+    height: 54px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    cursor: pointer;
+
+    &--cheap {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &--fast {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}
+
+.active-tab {
+  color: #FFFFFF;
+  background-color: #2196F3;
+
+  &:hover {
+    background-color: none !important;
+  }
+}

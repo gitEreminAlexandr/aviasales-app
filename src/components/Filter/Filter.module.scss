@@ -1,0 +1,35 @@
+.filter {
+  width: 232px;
+  height: 252px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding-top: 20px;
+  border-radius: 5px;
+
+  &__title {  
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  &__item {
+    line-height: 2.3;
+    font-size: 16px;
+
+    &:hover {
+      background-color: #F1FCFF;
+    }
+
+    &--label {
+      display: block;
+      cursor: pointer;
+      padding-left: 30px;
+
+    }
+
+    &--input {
+      cursor: pointer;
+    }
+  }
+}
